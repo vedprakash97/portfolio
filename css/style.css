@@ -50,6 +50,10 @@ a:focus {
     background: #F6D155;
 }
 
+h1 .screenForMobile {
+    color: cornflowerblue !important;
+}
+
 .wrapper .sidebar-header,
 .wrapper .sidebar-footer {
     display: none;
@@ -329,6 +333,9 @@ a:focus {
     color: #222222;
     font-size: 50px;
     font-weight: 700;
+    @media screen and (max-width: 600px) {
+        color: #3dc1d3;
+    }  
 }
 
 .header h2 {
