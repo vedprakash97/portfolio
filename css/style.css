@@ -343,6 +343,9 @@ h1 .screenForMobile {
     margin: 0;
     height: 25px;
     font-size: 25px;
+    @media screen and (max-width: 600px) {
+        color: #e84118;
+    } 
 }
 
 .header .typed-text {
